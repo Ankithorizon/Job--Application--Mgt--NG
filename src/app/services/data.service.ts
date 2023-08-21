@@ -18,8 +18,8 @@ export class DataService {
 
   //// follow-up
   // get all jobApplications
-  getAllJobApps(): Observable<Array<any>> {
-    return this.http.get<Array<any>>(this.JobApplication_API + '/getAllJobApps');
+  getAllJobApps():  Observable<Array<any>> {
+    return  this.http.get<Array<any>>(this.JobApplication_API + '/getAllJobApps');
   }
   // get app-status-type
   getAppStatusTypes(): Observable<Array<string>> {

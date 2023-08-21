@@ -71,6 +71,9 @@ export class FollowUpComponent implements OnInit {
           console.log(error);
         });
   }
+  
+
+
 
   // track job-app
   trackJobApp(selectedJob) {

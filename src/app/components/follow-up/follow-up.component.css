@@ -37,3 +37,14 @@
 .removeJobAppModel{
     background-color: orange;
 }
+
+.noData {
+    color: red;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid red;
+    border-radius: 20px;
+}

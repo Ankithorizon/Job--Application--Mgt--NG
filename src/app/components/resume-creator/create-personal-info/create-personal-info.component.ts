@@ -52,7 +52,7 @@ export class CreatePersonalInfoComponent {
 
   get f() {
     return this.personalInfoForm.controls;
-  } l
+  } 
 
   changeProvince(e) {
     this.cityCollection = [];
